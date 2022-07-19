@@ -1,12 +1,15 @@
 
 
-QR Generator
+Typo SeQRity
 ===
+
+![](https://i.imgur.com/gGB7kPF.png)
+
 
 ## Team
 
-Doménica Rentería Berrospe - A01208964
-Daniel Cu Sánchez - A01703613
+Doménica Rentería Berrospe - A01208964  - ISC
+Daniel Cu Sánchez - A01703613 - ISC
 
 
 ## Table of Contents
@@ -16,18 +19,18 @@ Daniel Cu Sánchez - A01703613
 Problem to be Solved
 ---
 
-The use of URLs to access websites has always been a hassle, as they are sometimes long, or with words that are hard to type. When a user types a URL, there is a high chance of having a ‘'typo', which refers to small mistakes users can make when typing on a keyboard. These inoffensive mistakes can actually be the door for a dangerous security breach. Just one wrong character could send you to a look-alike site that can steal sensitive information, install malware, or even lock up your computer. 
+The use of URLs to access websites has always been a hassle, as they are sometimes long, or with words that are hard to type. When a user types a URL, there is a high chance of having a 'typo', which refers to small mistakes users can make when typing on a keyboard. These inoffensive mistakes can actually be the door for a dangerous security breach. Just one wrong character could send you to a look-alike site that can steal sensitive information, install malware, or even lock up your computer. QR codes save up time, and are a safe alternative to use.
 
 
 ## Argumentation
 
-A QR code is today a practical way to share information, this allows us to be faster and more agile to achieve it. That is why a tool that has a web interface without the need for a command line.
+A QR code is today a practical and safe way to share information and navigate. They allows us to be faster and more agile to achieve it. 
 
 ## Solution
 
-We propose a program that will be used in web app format to be able to view it on a cell phone or computer where you can generate secure QR codes.
+We propose a web application that will generate secure QR codes. This application will be available to access from a cell phone or computer.
 
-We will also add a button to share it quickly.
+We will also add a button to share the QR quickly.
 
 ## Technologies / Stack
 
