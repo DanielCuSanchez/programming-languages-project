@@ -32,6 +32,13 @@ We propose a web application that will generate secure QR codes. This applicatio
 
 We will also add a button to share the QR quickly.
 
+## Topics from Class
+
+To create this solution, we will implement recursion and functional programming. 
+- Recursion: for the main algorithm 
+- Functional Programming for the interface, functionality, and interaction
+- Elixir for all the framework
+
 ## Technologies / Stack
 
 - Base language: Elixir
