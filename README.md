@@ -55,9 +55,30 @@ To create this solution, we will implement recursion and functional programming.
 
 1) The user enters the link to the interface
 2) The link will be transformed into a shortcut by the program
-3) The program will create the QR code 
+3) The program will create the QR code
 4) User can decide to share the code (Optional)
 
+## Examples
+
+Our platform is web, so it will be responsive to mobile device
+
+- A typical general user wants a web easy solution to create a qr code
+- A user wants to share the qr code with facebook o download
+
+## Input program
+
+Our user interface will have an input text with a button
+
+A user can insert:
+
+- url website
+- url form
+- url social network
+
+## Results expected
+
+- QR image code showed on the interface
+- QR file (it depends if we have time)
 
 ## References
 
