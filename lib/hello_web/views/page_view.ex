@@ -1,3 +1,3 @@
-defmodule HelloWeb.PageView do
+defmodule HelloWeb.QrView do
   use HelloWeb, :view
 end

@@ -1,4 +1,4 @@
-defmodule HelloWeb.PageController do
+defmodule HelloWeb.QrController do
   use HelloWeb, :controller
 
   def index(conn, _params) do
