@@ -1,23 +1,26 @@
-<section class="phx-hero">
-  <h1><%= gettext "Welcome to QR APP" %></h1>
-  <p>This app was created for you to easily create your own QR and share it! 😀</p>
+<section class='row mb-4'>
+  <h1 class='text-center'>Welcome to QR APP</h1>
+  <p class='text-center'>This app was created for you to easily create your own QR and share it! 😀</p>
 </section>
 
-<section class="row">
+<section class="row mt-4">
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-md-6">
-        <form action="#">
+        <form class='mt-5' >
           <div class="form-group">
             <label for="qr">Paste your link / url / resource</label>
-            <input type="text" placeholder='Paste here'>
+            <input type="text" class='form-control mt-4' placeholder='Paste here'>
           </div>
-          <button class='btn btn-primary'>Create QR</button>
+          <div class="d-grid gap-2 mt-3">
+            <button class="btn btn-primary" type="button">Create QR</button>
+          </div>
         </form>
       </div>
       <div class="col-md-6">
-        
+        <p class='text-center'>Here will be displayed your QR</p>
       </div>
     </div>
   </div>
 </section>
+
