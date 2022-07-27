@@ -11,7 +11,7 @@
           <input type="hidden" name="_csrf_token"  />
           <div class="form-group">
             <label for="qr">Paste your link / url / resource</label>
-            <input name='test' type="text" class='form-control mt-4' placeholder='Paste here'>
+            <input name='qr_code_content' type="text" class='form-control mt-4' placeholder='Paste here'>
           </div>
           <div class="d-grid gap-2 mt-3">
             <button class="btn btn-primary" type="submit">Create QR</button>
@@ -19,8 +19,8 @@
         </form>
       </div>
       <div class="col-md-6">
-        <p class='text-center'>Here will be displayed your QR</p>
-        <p><%= @qr_generated %></p>
+        <p class='text-center'>We are using</p>
+        <img src={ Routes.static_path(@conn, "/images/phoenix.png" )} />
       </div>
     </div>
   </div>

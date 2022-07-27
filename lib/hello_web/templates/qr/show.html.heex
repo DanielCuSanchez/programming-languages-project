@@ -1,0 +1,22 @@
+<section class='row mb-4'>
+  <h1 class='text-center'>Welcome to QR APP</h1>
+  <p class='text-center'>This app was created for you to easily create your own QR and share it! 😀</p>
+</section>
+
+<section class="row mt-4">
+  <div class="container">
+    <div class="row justify-content-center mt-5">
+
+      <div class="col-md-6 text-center">
+        <h3 class='text-center'>Your QR</h3>
+        <img  alt={@qr_code} src={ Routes.static_path(@conn, "/images/#{@qr_code}.png" )} />
+        <a class='btn btn-dark' href={"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F#{@qr_code}"} target="_blank" rel="noopener">
+          Share on facebook <%= @qr_code %>
+        </a>
+        <a class='btn btn-success' href="/">
+          Generate new code
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
