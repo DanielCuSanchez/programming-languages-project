@@ -2,13 +2,17 @@ defmodule HelloWeb.QrController do
   use HelloWeb, :controller
   require Logger
 
-  def show(conn, _params) do
+  def index(conn, _params) do
     render(conn, "index.html")
   end
 
   def create(conn, %{"qr_code_content" => qr_code_content}) do
-    _qr_code = create_qr(qr_code_content)
-    render(conn, "show.html", qr_code: qr_code_content)
+
+    task = Task.async(fn -> create_qr(qr_code_content) end)
+    Task.await(task)
+    conn
+    |>assign(:qr_code, qr_code_content)
+    |>render("show.html")
   end
 
   def create_qr(qr_code_content) do
