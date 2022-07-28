@@ -61,7 +61,7 @@ To create this solution, we will implement recursion and functional programming.
 Our platform is web, so it will be responsive to mobile device
 
 - A typical general user wants a web easy solution to create a qr code
-- A user wants to share the qr code with facebook o download
+- A user wants to share the qr code on facebook 
 
 ## Input program
 
@@ -76,13 +76,12 @@ A user can insert:
 ## Results expected
 
 - QR image code showed on the interface
-- QR file (it depends if we have time)
-
+- QR image code that can be shared on Social Media
 
 ## To start the project Phoenix server:
   * Download the repo ```git clone https://github.com/DanielCuSanchez/programming-languages-project.git```
   * Access to the folder ```cd programming-languages-project```
-  * Install dependencies with `mix deps.get`
+  * Install dependencies with `mix deps.get` and `mix do deps.get, deps.compile`
   * Create and migrate your database with `mix ecto.setup`
   * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
@@ -109,6 +108,7 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+  * QR Code library https://github.com/iodevs/qr_code
   * The Elixir Team. (2022). Documentation. 2022, by The Elixir Team, Web site: https://elixir-lang.org/docs.html
   * Phoenix Elixir. (2022). Documentation. 2022, by Elixir Phoenix Web site: https://hexdocs.pm/phoenix/overview.html
   * Meta Platforms, Inc. (2022). Documentation. 2022, by Meta Platforms, Inc Web site: https://reactjs.org/
