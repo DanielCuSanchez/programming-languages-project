@@ -96,9 +96,12 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
     ![](https://i.imgur.com/TCWRKtw.png)
 
   * 3- You will get your QR Code
-    ![](https://i.imgur.com/ufVbqaY.png)
+    ![](https://i.imgur.com/js5CP4i.png)
 
-  * 4- Click on share or generate new code
+  * 4- Download
+    ![](https://i.imgur.com/iWXotm5.png)
+
+  * 5- Click on share or generate new code
 
 
 ## References
