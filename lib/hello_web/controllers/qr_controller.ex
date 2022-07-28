@@ -7,20 +7,11 @@ defmodule HelloWeb.QrController do
   end
 
   def create(conn, %{"qr_code_content" => qr_code_content}) do
-
-    task = Task.async(fn -> create_qr(qr_code_content) end)
-    Task.await(task)
     conn
     |>assign(:qr_code, qr_code_content)
     |>render("show.html")
   end
 
-  def create_qr(qr_code_content) do
-    qr_code_png =
-      qr_code_content
-      |> EQRCode.encode()
-      |> EQRCode.png()
-    File.write(Path.join(Path.absname("priv"),"static/images/#{qr_code_content}.png"), qr_code_png, [:binary])
-  end
+
 
 end

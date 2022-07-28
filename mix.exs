@@ -33,7 +33,6 @@ defmodule Hello.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:qr_code, "~> 2.3.1"},
       {:eqrcode, "~> 0.1.10"},
       {:phoenix, "~> 1.6.11"},
       {:phoenix_ecto, "~> 4.4"},

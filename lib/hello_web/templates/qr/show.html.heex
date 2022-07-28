@@ -7,7 +7,7 @@
     <div class="row justify-content-center mt-1">
 
       <div class="col-md-6 text-center">
-        <img  alt={@qr_code} src={ path_img(@qr_code)} />
+        <img  alt={@qr_code} src={ create_qr(@qr_code)} />
       </div>
       <div class="col-8 text-center mt-4">
         <a class='btn btn-dark' href={"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F#{@qr_code}"} target="_blank"
